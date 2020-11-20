@@ -75,14 +75,13 @@ h1 {
 }
 
 .listgroup {
+    grid-area: footer;
+}
+
+.listgroup {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 25%);
     grid-gap: 1px;
     grid-template-areas: "group1 group2 group3 group4"
 }
-
-
-
-
-
